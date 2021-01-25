@@ -1,0 +1,30 @@
+.section {
+  background-image: url(../../../assets/torii-5889982_1920.jpg);
+  background-attachment: scroll, fixed;
+  background-color: #666;
+  background-position: top left, center center;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  color: #fff;
+  padding: 10em 0 26.8em 0;
+  text-align: center;
+  margin: -56px auto;
+}
+.btn-outline-dark {
+  color: white;
+}
+.section h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+.section p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.section button {
+  font-size: 1rem;
+}
+button {
+  min-width: 11rem;
+  height: 3em;
+}

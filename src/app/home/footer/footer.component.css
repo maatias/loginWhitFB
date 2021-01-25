@@ -1,0 +1,19 @@
+.box {
+  margin-top: 150px;
+  padding: 60px 0 100px;
+  background-color: #dedede;
+}
+.box2 {
+  max-width: 300px;
+}
+i {
+  font-size: 2rem;
+  color: black;
+}
+.disign {
+  font-size: 1rem;
+  color: #999;
+}
+.didign-a {
+  color: #999;
+}

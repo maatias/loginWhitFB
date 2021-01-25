@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "loginng-9bd5e": {
+      "hosting": {
+        "ejercicio": [
+          "loginng-9bd5e"
+        ]
+      }
+    }
+  }
+}
