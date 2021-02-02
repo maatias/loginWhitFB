@@ -1,3 +1,7 @@
 .nav-color {
   background-color: none;
 }
+.textBlack {
+  color: #60092c !important;
+  font-weight: 800;
+}

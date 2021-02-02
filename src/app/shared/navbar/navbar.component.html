@@ -21,15 +21,17 @@
       </ul>
       <ng-template #login>
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item" >
-            <a class="nav-link" href="#" aria-current="page" [routerLink]="[ '/login' ]">Iniciar sesion</a>
+          <li class="nav-item">
+            <a class="nav-link textBlack" href="#" aria-current="page" *ngIf="currentRoute != '/login'"
+              [ngClass]="{'textBlack': currentRoute == '/register'}" [routerLink]="[ '/login' ]">Iniciar sesion</a>
           </li>
-          <li class="nav-item" >
-            <a class="nav-link" href="#" aria-current="page" [routerLink]="[ '/register']">Registrarse</a>
+          <li class="nav-item">
+            <a class="nav-link textBlack" href="#" aria-current="page" *ngIf="currentRoute != '/register'"
+              [ngClass]="{'textBlack': currentRoute == '/login'}" [routerLink]="[ '/register']">Registrarse</a>
           </li>
         </ul>
       </ng-template>
-      
+
     </div>
   </div>
 </nav>

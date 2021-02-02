@@ -1,17 +1,8 @@
-<div class="mt-5">
-    <div class="text-center h2">Registrarse</div>
-    <form [formGroup]="registerForm" (ngSubmit)="onRegister()">
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" formControlName="email" aria-describedby="emailHelp">
-        </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" formControlName="password">
-        </div>
-        <button type="submit" class="btn btn-primary btn-block">Registrarse</button>
-    </form>
-    <div class="form-group mt-3">
-        <p>Ya tenes cuenta? <a [routerLink]="[ '/login']">Login</a></p>
+<div class="row box">
+    <div class="col-8 position-static">
+        <app-register-section></app-register-section>
+    </div>
+    <div class="col-4 position-static ">
+        <app-register-form></app-register-form>
     </div>
 </div>
