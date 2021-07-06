@@ -1,4 +1,8 @@
-# Ejercicio
+# Login App
+
+Aplicacion web con el fin de interiorizarme en el manejo de usuarios y autenticaciones. 
+
+Tecnologias ultilizadas: Angular 11, Bootstrap y Firebase.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
 
